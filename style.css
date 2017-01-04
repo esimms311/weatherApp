@@ -1,0 +1,96 @@
+nav {
+  margin-top: -8px;
+  margin-left: -7px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 12vh;
+  background-color: #97c1ed;
+  opacity: 0.70;
+  color: black;
+font-family: 'Prompt', sans-serif;
+}
+nav p {
+  cursor: pointer;
+  
+}
+ui-view {
+  align-items: center;
+}
+
+body {
+  text-align: center;
+  /*background-color: #32a3ef;*/
+  background-image: url("http://www.ukweatherforecast.co.uk/wp-content/uploads/2014/05/rain.jpg");
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  color: #97c1ed
+}
+
+ h1 p {
+  /*color: white;*/
+}
+
+li {
+  list-style-type: none;
+font-family: 'Prompt', sans-serif;
+color: white;
+}
+button {
+  cursor: pointer;
+}
+
+.date {
+  /*color: white;*/
+font-family: 'Prompt', sans-serif;
+font-weight: bold;
+color: white;
+}
+
+.dayTitle {
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Prompt', sans-serif;
+  color: white;
+}
+.headers {
+  border-style: groove;
+  border-color: #97c1ed;
+  border-width: 3px;
+  border-radius:5px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.backColor {
+  background-color: #545d82;
+  opacity: .75;
+  margin: 10px;
+  margin-top: 5px;
+  color: white;
+  padding-bottom: 18px;
+  padding-top: 5px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.hiLow {
+  float: right;
+  /*padding-right: px;*/
+  margin-right: 70px;
+  font-weight: bold;
+  display: inline-flex;
+  /*margin-right: auto;*/
+}
+.conditions {
+  /*float: left;*/
+  padding-left: 25px;
+  margin-left: -125px;
+}

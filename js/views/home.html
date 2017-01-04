@@ -1,0 +1,20 @@
+<br>
+<h1 class='headers'> Todays Weather </h1>
+<br>
+<button type = 'button' name = 'button' ng-click = 'getWeather()'>Get Current Weather </button>
+<br><br>
+<!-- <ul class = 'backColor' ng-repeat= 'today in todays | limitTo: 1' > -->
+<div class = 'backColor' ng-if = 'todays'>
+<br>
+
+<h2>Here is the Current Weather for {{todays.display_location.city}}, {{todays.display_location.state}}</h2>
+
+ {{todays.local_time_rfc822}}<br>
+ Current Temperature: {{todays.temperature_string}}<br>
+Current Condition: {{todays.weather}}<br>
+<img src = '{{todays.icon_url}}'>
+
+</div>
+
+
+<!-- <input type = 'text' name= 'input'> -->

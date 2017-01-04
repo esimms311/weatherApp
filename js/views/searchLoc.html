@@ -1,0 +1,14 @@
+<br>
+<h1 class='headers'> Four Day Forecast </h1>
+<br>
+<button ng-click = 'getCurrentLocation()'>Get Forecast</button><br>
+<br>
+<ul class="backColor" ng-repeat = 'day in days'>
+<li class ='dayTitle'>{{day.date.weekday}}, {{day.date.monthname_short}} {{day.date.day}}</li>
+<li>  {{day.simpleforecast.forecastday}} </li>
+<li class ='hiLow'> <span style = 'color:blue'> Low:</span>  {{day.low.fahrenheit}}</li>
+<li class ='hiLow'> <span style = 'color:red'> High:</span>  {{day.high.fahrenheit}}</li>
+<img class ='hiLow' src="{{day.icon_url}}" alt="">
+<li class = 'conditions'> Expected Conditions: {{day.conditions}}</li>
+<li class = 'conditions'> Possibility of Precipitation: {{day.pop}}% </li>
+</ul>
