@@ -1,7 +1,7 @@
 <br>
 <h1 class='headers'> Four Day Forecast </h1>
 <br>
-<button ng-click = 'getCurrentLocation()'>Get Forecast</button><br>
+<button class = 'btn' ng-click = 'getCurrentLocation()'>Get Forecast</button><br>
 <br>
 <ul class="backColor" ng-repeat = 'day in days'>
 <li class ='dayTitle'>{{day.date.weekday}}, {{day.date.monthname_short}} {{day.date.day}}</li>

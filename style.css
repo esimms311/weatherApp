@@ -14,7 +14,7 @@ font-family: 'Prompt', sans-serif;
 }
 nav p {
   cursor: pointer;
-  
+
 }
 ui-view {
   align-items: center;
@@ -93,4 +93,8 @@ h2{
   /*float: left;*/
   padding-left: 25px;
   margin-left: -125px;
+}
+.btn {
+  border: dotted;
+  border-color: blue;
 }
